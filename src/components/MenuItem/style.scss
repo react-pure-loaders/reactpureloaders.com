@@ -1,6 +1,14 @@
 $gray: #4f5c70;
+$bg-hover: #526077;
+$color-hover: #fff;
+
 .menu-item {
   color: $gray;
-  padding: 20px;
+  padding: 10px;
   font-size: 18px;
+  &:hover {
+    background: $bg-hover;
+    color: $color-hover;
+    cursor: pointer;
+  }
 }

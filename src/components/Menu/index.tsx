@@ -4,16 +4,12 @@ import MenuItem from '../MenuItem';
 
 import './style.scss';
 
-interface OwnProps {
-  items: string[];
-}
-
-const Menu: FunctionComponent<OwnProps> = ({ items }) => {
+const Menu: FunctionComponent = () => {
   return (
     <div className="menu-items">
-      {items.map(itemname => (
-        <MenuItem name={itemname} />
-      ))}
+      <MenuItem name="Home" />
+      <MenuItem name="Demo" />
+      <MenuItem name="Docs" />
     </div>
   );
 };
