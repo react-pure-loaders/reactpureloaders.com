@@ -1,4 +1,4 @@
-$gray: #4f5c70;
+$gray: #191b1f;
 $bg-hover: #526077;
 $color-hover: #fff;
 
@@ -10,5 +10,11 @@ $color-hover: #fff;
     background: $bg-hover;
     color: $color-hover;
     cursor: pointer;
+  }
+  @media screen and (max-width: 350px) {
+    font-size: 12px;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 14px;
   }
 }
