@@ -1,0 +1,45 @@
+.header-home {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5% 2%;
+  height: 25px;
+
+  &.menu {
+    width: 40%;
+    padding: 0;
+    &.logo {
+      width: 50%;
+      p {
+        font-size: 20px;
+        font-weight: bold;
+        align-self: center;
+      }
+    }
+  }
+}
+
+.section-home {
+  width: 80%;
+  padding: 2% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .section-home-children {
+    code {
+      background-color: #dde3ed;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.footer-home {
+  display: flex;
+  flex-direction: column;
+  p {
+    text-align: center;
+  }
+}
