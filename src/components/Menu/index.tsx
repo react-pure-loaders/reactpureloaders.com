@@ -8,7 +8,14 @@ const Menu: FunctionComponent = () => {
   return (
     <div className="menu-items">
       <MenuItem name="Home" />
-      <MenuItem name="Demo" />
+      <a
+        href="https://reactpureloaders.io/?path=/story/"
+        title="Demo on Storybook"
+        target="_blank"
+      >
+        <MenuItem name="Demo" />
+      </a>
+
       <MenuItem name="Docs" />
     </div>
   );

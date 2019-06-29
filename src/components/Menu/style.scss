@@ -1,8 +1,18 @@
 .menu-items {
   display: flex;
   justify-content: space-between;
+  align-self: center;
   align-items: center;
-  width: 40%;
+  width: 20%;
   min-width: 300px;
-  font-weight: bold;
+  height: 40px;
+  a {
+    text-decoration: none;
+  }
+  @media screen and (max-width: 350px) {
+    min-width: 50%;
+  }
+  @media screen and (min-width: 350px) and (max-width: 576px) {
+    min-width: 40%;
+  }
 }
