@@ -4,13 +4,19 @@ import './style.scss';
 
 interface OwnProps {
   title: string;
-  description: string;
+  description?: string;
+  children?: any;
 }
 
-const Section: FunctionComponent<OwnProps> = ({ title, description }) => (
+const Section: FunctionComponent<OwnProps> = ({
+  title,
+  description,
+  children,
+}) => (
   <div className="section">
     <h2 className="section-title">{title}</h2>
-    <p className="section-description">{description}</p>
+    {description && <p className="section-description">{description}</p>}
+    {children}
   </div>
 );
 
