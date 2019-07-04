@@ -4,7 +4,7 @@ import Section from '../../components/Section';
 import Menu from '../../components/Menu';
 import SocialMedia from '../../components/SocialMedia';
 
-import { LogoGithub } from '../../utils/icons';
+import { LogoGithub, Logo } from '../../utils/icons';
 
 import './style.scss';
 
@@ -13,8 +13,11 @@ const Home = () => (
     <header className="header-home">
       <div className="header-home menu">
         <div className="header-home menu logo">
-          <img alt="Logo" />
-          <p>React Pure Loaders</p>
+          <img src={Logo} alt="Logo" height="35px" width="35px" />
+          <p className="header-home menu logo title">
+            <span id="span-title-1">React Pure</span>
+            <span id="span-title-2">Loaders</span>
+          </p>
         </div>
         <Menu />
       </div>
