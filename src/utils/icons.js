@@ -1,4 +1,4 @@
 import LogoGithub from '../../assets/images/github.png';
-import Logo from '../../assets/images/logo.png';
+import LogoImage from '../../assets/images/logo.png';
 
-export { LogoGithub, Logo };
+export { LogoGithub, LogoImage };

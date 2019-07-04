@@ -1,12 +1,25 @@
 $blue-logo: #32009f;
 $pink-logo: #d80079;
+$code-bg: #c5cbd4;
+
+.code-snippet {
+  background-color: $code-bg;
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+  @media screen and (max-width: 578px) {
+    width: 260px;
+    margin-left: -4px;
+  }
+}
 
 .header-home {
   display: flex;
   justify-content: space-between;
   padding: 0.5% 10%;
   height: 40px;
-  @media screen and (max-width:500px){
+  @media screen and (max-width: 500px) {
     padding: 1.5% 0;
     height: 35px;
   }
@@ -17,7 +30,7 @@ $pink-logo: #d80079;
       width: 100%;
       max-width: 200px;
       margin-right: 1%;
-      @media screen and (max-width:1300px) {
+      @media screen and (max-width: 1300px) {
         padding: 1% 2%;
       }
       &.title {
