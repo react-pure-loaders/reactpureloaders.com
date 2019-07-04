@@ -1,11 +1,11 @@
 .menu-items {
   display: flex;
   justify-content: space-between;
-  align-self: center;
   align-items: center;
   width: 20%;
   min-width: 300px;
   height: 40px;
+  margin-right: 5%;
   a {
     text-decoration: none;
   }
@@ -13,6 +13,7 @@
     min-width: 50%;
   }
   @media screen and (min-width: 350px) and (max-width: 576px) {
-    min-width: 40%;
+    min-width: 50%;
+    margin-right: 15%;
   }
 }
