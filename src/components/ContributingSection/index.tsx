@@ -20,7 +20,6 @@ const Contributing = () => (
       </a>
       .
     </p>
-    <p>License MIT.</p>
   </>
 );
 

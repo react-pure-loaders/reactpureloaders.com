@@ -42,7 +42,7 @@ const Home = () => (
       </Section>
     </section>
     <footer className="footer-home">
-      <p>Footer</p>
+      <p>Made using MIT License.</p>
     </footer>
   </div>
 );
