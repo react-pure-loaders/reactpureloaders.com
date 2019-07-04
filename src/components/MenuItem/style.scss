@@ -1,5 +1,5 @@
 $gray: #191b1f;
-$bg-hover: #526077;
+$bg-hover: #34009a;
 $color-hover: #fff;
 
 .menu-item {
@@ -10,6 +10,7 @@ $color-hover: #fff;
     background: $bg-hover;
     color: $color-hover;
     cursor: pointer;
+    border-radius: 5px;
   }
   @media screen and (max-width: 350px) {
     font-size: 12px;
