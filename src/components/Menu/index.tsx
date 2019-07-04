@@ -1,5 +1,7 @@
 import React, { FunctionComponent } from 'react';
 
+import { Link } from 'react-router-dom';
+
 import MenuItem from '../MenuItem';
 
 import './style.scss';
@@ -15,8 +17,9 @@ const Menu: FunctionComponent = () => {
       >
         <MenuItem name="Demo" />
       </a>
-
-      <MenuItem name="Docs" />
+      <Link to="/docs">
+        <MenuItem name="Docs" />
+      </Link>
     </div>
   );
 };
