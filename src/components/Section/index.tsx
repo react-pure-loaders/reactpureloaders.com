@@ -16,7 +16,7 @@ const Section: FunctionComponent<OwnProps> = ({
   <div className="section">
     <h2 className="section-title">{title}</h2>
     {description && <p className="section-description">{description}</p>}
-    <div className="section-home-children">{children}</div>
+    {children && <div className="section-home-children">{children}</div>}
   </div>
 );
 
