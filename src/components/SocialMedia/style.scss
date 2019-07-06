@@ -1,0 +1,10 @@
+.social-media {
+  max-width: 50px;
+  img {
+    width: 35px;
+    height: 35px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
