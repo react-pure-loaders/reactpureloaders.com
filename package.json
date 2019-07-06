@@ -21,7 +21,8 @@
     "check-types": "tsc",
     "lint:ts": "tslint 'src/**/*.{ts,tsx,js}'",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "now-build": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
