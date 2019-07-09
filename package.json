@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "npm run build:webpack && npm run build:build:storybook",
+    "build": "npm run build:webpack && npm run build:storybook",
     "build:webpack": "webpack --mode production",
     "build:storybook": "build-storybook -s public",
     "test": "jest --watch",
