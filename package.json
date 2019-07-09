@@ -18,7 +18,7 @@
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "npm run build:webpack && npm run build:storybook",
     "build:webpack": "webpack --mode production",
-    "build:storybook": "build-storybook -s public",
+    "build:storybook": "build-storybook -o dist/story",
     "test": "jest --watch",
     "check-types": "tsc",
     "lint:ts": "tslint 'src/**/*.{ts,tsx,js}'",
