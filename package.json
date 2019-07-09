@@ -16,12 +16,13 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production",
+    "build": "npm run build:webpack && npm run build:build:storybook",
+    "build:webpack": "webpack --mode production",
+    "build:storybook": "build-storybook -s public",
     "test": "jest --watch",
     "check-types": "tsc",
     "lint:ts": "tslint 'src/**/*.{ts,tsx,js}'",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public",
     "now-build": "npm run build"
   },
   "eslintConfig": {
