@@ -2,13 +2,15 @@ import React, { cloneElement } from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 
-import CubeTransition from '../src/CubeTransition';
-import Pacman from '../src/Pacman';
-import SemiCircleSpin from '../src/SemiCircleSpin';
-import SquareSpin from '../src/SquareSpin';
-import TriangleSkewSpin from '../src/TriangleSkewSpin';
+import {
+  CubeTransition,
+  Pacman,
+  SemiCircleSpin,
+  SquareSpin,
+  TriangleSkewSpin,
+} from 'react-pure-loaders';
 
-import createStories from '../utils/createStories';
+import createStories from './createStories';
 
 const animationsForStories = [
     {

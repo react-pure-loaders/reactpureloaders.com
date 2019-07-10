@@ -2,29 +2,31 @@ import React, { cloneElement } from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 
-import BallBeat from '../src/BallBeat';
-import BallClipRotate from '../src/BallClipRotate';
-import BallClipRotateMultiple from '../src/BallClipRotateMultiple';
-import BallClipRotatePulse from '../src/BallClipRotatePulse';
-import BallGridBeat from '../src/BallGridBeat';
-import BallGridPulse from '../src/BallGridPulse';
-import BallPulse from '../src/BallPulse';
-import BallPulseRise from '../src/BallPulseRise';
-import BallPulseRound from '../src/BallPulseRound';
-import BallPulseSync from '../src/BallPulseSync';
-import BallRotate from '../src/BallRotate';
-import BallScale from '../src/BallScale';
-import BallScaleMultiple from '../src/BallScaleMultiple';
-import BallScaleRandom from '../src/BallScaleRandom';
-import BallScaleRipple from '../src/BallScaleRipple';
-import BallScaleRippleMultiple from '../src/BallScaleRippleMultiple';
-import BallSpinFadeLoader from '../src/BallSpinFadeLoader';
-import BallSpinLoader from '../src/BallSpinLoader';
-import BallTrianglePath from '../src/BallTrianglePath';
-import BallZigZag from '../src/BallZigZag';
-import BallZigZagDeflect from '../src/BallZigZagDeflect';
+import { 
+  BallBeat,
+  BallClipRotate,
+  BallClipRotateMultiple,
+  BallClipRotatePulse,
+  BallGridBeat,
+  BallGridPulse,
+  BallPulse,
+  BallPulseRise,
+  BallPulseRound,
+  BallPulseSync,
+  BallRotate,
+  BallScale,
+  BallScaleMultiple,
+  BallScaleRandom,
+  BallScaleRipple,
+  BallScaleRippleMultiple,
+  BallSpinFadeLoader,
+  BallSpinLoader,
+  BallTrianglePath,
+  BallZigZag,
+  BallZigZagDeflect
+} from 'react-pure-loaders';
 
-import createStories from '../utils/createStories';
+import createStories from './createStories';
 
 const animationsStories = [
     {

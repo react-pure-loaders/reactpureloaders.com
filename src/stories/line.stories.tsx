@@ -2,14 +2,16 @@ import React, { cloneElement } from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 
-import LineScale from '../src/LineScale';
-import LineScaleParty from '../src/LineScaleParty';
-import LineScalePulseOut from '../src/LineScalePulseOut';
-import LineScalePulseOutRapid from '../src/LineScalePulseOutRapid';
-import LineScaleRandom from '../src/LineScaleRandom';
-import LineSpinFadeLoader from '../src/LineSpinFadeLoader';
+import {
+  LineScale,
+  LineScaleParty,
+  LineScalePulseOut,
+  LineScalePulseOutRapid,
+  LineScaleRandom,
+  LineSpinFadeLoader,
+} from 'react-pure-loaders';
 
-import createStories from '../utils/createStories';
+import createStories from './createStories';
 
 const animationsForStories = [
     {
