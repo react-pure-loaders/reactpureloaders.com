@@ -1,10 +1,10 @@
 {
   "alias": [
-    "reactpureloaders.io",
+    "reactpureloaders.com",
     "www.reactpureloaders.io"
   ],
   "version": 2,
-  "name": "reactpureloaders.io",
+  "name": "reactpureloaders.com",
   "builds": [
     {
       "src": "package.json",
