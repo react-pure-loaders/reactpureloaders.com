@@ -11,7 +11,7 @@ const Menu: FunctionComponent = () => {
     <div className="menu-items">
       <MenuItem name="Home" />
       <a
-        href="https://reactpureloaders.io/story/"
+        href="https://reactpureloaders.com/story/"
         title="Demo on Storybook"
         target="_blank"
       >
