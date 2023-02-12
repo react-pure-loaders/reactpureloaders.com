@@ -12,7 +12,7 @@ const Contributing = () => (
       </a>{' '}
       and check the source code. To contribute to this website,{' '}
       <a
-        href="https://github.com/jameswlane/reactpureloaders.io"
+        href="https://github.com/jameswlane/reactpureloaders.com"
         title="Website Repo"
       >
         {' '}
