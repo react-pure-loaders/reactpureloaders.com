@@ -76,7 +76,7 @@
     "image-webpack-loader": "^5.0.0",
     "jest": "^24.8.0",
     "jest-transform-css": "^2.0.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^8.0.0",
     "prettier": "1.18.2",
     "react-element-to-jsx-string": "^14.0.2",
     "react-pure-loaders": "2.0.3",
