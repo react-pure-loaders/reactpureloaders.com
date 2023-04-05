@@ -11,7 +11,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.4.4",
+    "react-scripts": "5.0.1",
     "typescript": "3.5.2"
   },
   "scripts": {
@@ -75,7 +75,7 @@
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^5.0.0",
     "jest": "^24.8.0",
-    "jest-transform-css": "^2.0.0",
+    "jest-transform-css": "^6.0.1",
     "node-sass": "^8.0.0",
     "prettier": "1.18.2",
     "react-element-to-jsx-string": "^14.0.2",
