@@ -11,7 +11,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.4.4",
+    "react-scripts": "5.0.1",
     "typescript": "3.5.2"
   },
   "scripts": {
@@ -55,7 +55,7 @@
     "@storybook/addon-links": "^5.1.9",
     "@storybook/addon-options": "5.1.9",
     "@storybook/addons": "5.1.9",
-    "@storybook/react": "5.1.9",
+    "@storybook/react": "7.0.2",
     "@types/enzyme": "^3.10.1",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/markdown-to-jsx": "^6.9.0",
@@ -82,7 +82,7 @@
     "react-pure-loaders": "2.0.3",
     "react-test-renderer": "^16.8.6",
     "sass-loader": "^7.1.0",
-    "storybook": "1.0.0",
+    "storybook": "7.0.2",
     "storybook-readme": "^5.0.8",
     "style-loader": "^0.23.1",
     "ts-jest": "^24.0.2",
