@@ -18,8 +18,8 @@ exports[`renders homepage unchanged 1`] = `
             decoding="async"
             height="35"
             loading="lazy"
-            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            src="/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75"
+            srcset="/_next/image?url=%2Fimages%2Flogo.png&w=48&q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&w=96&q=75 2x"
             style="color: transparent;"
             width="35"
           />
@@ -81,8 +81,8 @@ exports[`renders homepage unchanged 1`] = `
             decoding="async"
             height="35"
             loading="lazy"
-            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            src="/_next/image?url=%2Fimages%2Fgithub.png&w=96&q=75"
+            srcset="/_next/image?url=%2Fimages%2Fgithub.png&w=48&q=75 1x, /_next/image?url=%2Fimages%2Fgithub.png&w=96&q=75 2x"
             style="color: transparent;"
             width="35"
           />

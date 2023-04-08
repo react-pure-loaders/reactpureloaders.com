@@ -24,7 +24,7 @@ const Home = () => (
 
 			<SocialMedia
 				desc='Github Logo'
-        src='/images/github.svg'
+        src='/images/github.png'
 				link='https://github.com/react-pure-loaders/react-pure-loaders'
 				title='Code Repository'
 			/>

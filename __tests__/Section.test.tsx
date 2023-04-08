@@ -5,38 +5,20 @@ import Section from '@/components/Section';
 
 describe('Section', () => {
 	it('should render correctly given a title', () => {
-		const mounted = shallow(<Section title='What' />);
-		const result = mounted.contains(
-			<div className='section'>
-				<h2 className='section-title'>What</h2>
-			</div>,
-		);
-		expect(result).toBeTruthy();
+    render(<Section title='What' />)
+
+    expect(screen.getByRole('heading')).toHaveTextContent('What');
 	});
 	it('should render a title and a description', () => {
-		const mounted = shallow(<Section title='Greeting' description='Hello' />);
-		const result = mounted.contains(
-			<div className='section'>
-				<h2 className='section-title'>Greeting</h2>
-				<p className='section-description'>Hello</p>
-			</div>,
-		);
-		expect(result).toBeTruthy();
+    render(<Section title='Greeting' description='Hello' />)
+
+    expect(screen.getByRole('heading')).toHaveTextContent('Greeting');
+    expect(screen.getByText("Hello")).toBeInTheDocument();
 	});
 	it('should render a children', () => {
-		const mounted = shallow(
-			<Section title='Greeting'>
-				<h3>Hello</h3>
-			</Section>,
-		);
-		const result = mounted.contains(
-			<div className='section'>
-				<h2 className='section-title'>Greeting</h2>
-				<div className='section-home-children'>
-					<h3>Hello</h3>
-				</div>
-			</div>,
-		);
-		expect(result).toBeTruthy();
+    render(<Section title='Greeting'><h3>Hello</h3></Section>)
+
+    expect(screen.getByRole('heading', { level: 2 })).toHaveTextContent('Greeting');
+    expect(screen.getByRole('heading', { level: 3 })).toHaveTextContent('Hello');
 	});
 });
