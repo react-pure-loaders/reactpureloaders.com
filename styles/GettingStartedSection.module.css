@@ -1,0 +1,14 @@
+.code-snippet {
+  background-color: #c5cbd4;
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+}
+@media screen and (max-width: 578px) {
+  .code-snippet {
+    width: 260px;
+    margin-left: -4px;
+  }
+}
+

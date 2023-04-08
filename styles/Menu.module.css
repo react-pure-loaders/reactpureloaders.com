@@ -1,0 +1,24 @@
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  min-width: 300px;
+  height: 40px;
+  margin-right: 5%;
+}
+.menu-items a {
+  text-decoration: none;
+}
+@media screen and (max-width: 350px) {
+  .menu-items {
+    min-width: 50%;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 576px) {
+  .menu-items {
+    min-width: 50%;
+    margin-right: 15%;
+  }
+}
+

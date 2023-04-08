@@ -1,0 +1,68 @@
+.header-home {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5% 10%;
+  height: 40px;
+}
+@media screen and (max-width: 500px) {
+  .header-home {
+    padding: 1.5% 0;
+    height: 35px;
+  }
+}
+.header-home.menu {
+  width: 100%;
+  padding: 0;
+}
+.header-home.menu.logo {
+  width: 100%;
+  max-width: 200px;
+  margin-right: 1%;
+}
+@media screen and (max-width: 1300px) {
+  .header-home.menu.logo {
+    padding: 1% 2%;
+  }
+}
+.header-home.menu.logo.title {
+  min-width: 120px;
+  max-width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 500px) {
+  .header-home.menu.logo.title {
+    font-size: 14px;
+    min-width: 0;
+  }
+}
+.header-home.menu.logo.title #span-title-1 {
+  color: #32009f;
+}
+.header-home.menu.logo.title #span-title-2 {
+  color: #d80079;
+}
+.section-home {
+  width: 80%;
+  padding: 2% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-home .section-home-children code {
+  background-color: #dde3ed;
+  padding: 5px;
+  border-radius: 5px;
+}
+.section-home .section-home-children a {
+  text-decoration: none;
+}
+.footer-home {
+  display: flex;
+  flex-direction: column;
+}
+.footer-home p {
+  text-align: center;
+}

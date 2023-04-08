@@ -1,0 +1,21 @@
+.menu-item {
+  color: #191b1f;
+  padding: 10px;
+  font-size: 18px;
+}
+.menu-item:hover {
+  background: #34009a;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+@media screen and (max-width: 350px) {
+  .menu-item {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .menu-item {
+    font-size: 14px;
+  }
+}

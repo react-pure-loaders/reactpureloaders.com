@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div>
+    <header
+      class="headerHome"
+    >
+      <div
+        class="header-home menu"
+      >
+        <div
+          class="header-home menu logo"
+        >
+          <img
+            alt="Logo"
+            data-nimg="1"
+            decoding="async"
+            height="35"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="35"
+          />
+          <p
+            class="header-home menu logo title"
+          >
+            <span
+              id="span-title-1"
+            >
+              React Pure
+            </span>
+            <span
+              id="span-title-2"
+            >
+              Loaders
+            </span>
+          </p>
+        </div>
+        <div
+          class="menuItems"
+        >
+          <p
+            class="menuItem"
+          >
+            Home
+          </p>
+          <a
+            href="https://reactpureloaders.com/story/"
+            target="_blank"
+            title="Demo on Storybook"
+          >
+            <p
+              class="menuItem"
+            >
+              Demo
+            </p>
+          </a>
+          <a
+            href="/docs"
+          >
+            <p
+              class="menuItem"
+            >
+              Docs
+            </p>
+          </a>
+        </div>
+      </div>
+      <div
+        class="socialMedia"
+      >
+        <a
+          href="https://github.com/react-pure-loaders/react-pure-loaders"
+          title="Code Repository"
+        >
+          <img
+            alt="Github Logo"
+            data-nimg="1"
+            decoding="async"
+            height="35"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="35"
+          />
+        </a>
+      </div>
+    </header>
+    <section
+      class="sectionHome"
+    >
+      <div
+        class="section"
+      >
+        <h2
+          class="section-title"
+        >
+          What is?
+        </h2>
+        <div
+          class="section-home-children"
+        >
+          <p>
+            React Pure Loaders is a package that disponibilizes loaders for your Project. Those loaders are used as components, using color and a loading variables as properties.
+          </p>
+          <p>
+            The component expects the to receive the color as a string with the hexadecimal code and the loading as a boolean, that is true by default.
+          </p>
+        </div>
+      </div>
+      <div
+        class="section"
+      >
+        <h2
+          class="section-title"
+        >
+          Getting Started
+        </h2>
+        <div
+          class="section-home-children"
+        >
+          Install into your project using a node package manager. Using npm:
+          <p
+            class="codeSnippet"
+          >
+            npm install react-pure-loaders
+          </p>
+          Using yarn:
+          <p
+            class="codeSnippet"
+          >
+            yarn add react-pure-loaders
+          </p>
+          Import into the component:
+          <p
+            class="codeSnippet"
+          />
+          Create the component:
+          <p>
+            As no props are passed, the component will use the default values for the color and loading state.If you want to personalize,use a string for the color and a boolean for loading.
+          </p>
+          <p
+            class="codeSnippet"
+          />
+        </div>
+      </div>
+      <div
+        class="section"
+      >
+        <h2
+          class="section-title"
+        >
+          Contributing
+        </h2>
+        <div
+          class="section-home-children"
+        >
+          <p>
+            To Contributing to this project, you can access the
+             
+            <a
+              href="https://github.com/react-pure-loaders/react-pure-loaders"
+              title="Loaders Repo"
+            >
+              repository
+            </a>
+             
+            and check the source code. To contribute to this website,
+             
+            <a
+              href="https://github.com/react-pure-loaders/reactpureloaders.com"
+              title="Website Repo"
+            >
+               
+              check this repository
+            </a>
+            .
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="footerHome"
+    >
+      <p>
+        Made using MIT License.
+      </p>
+    </footer>
+  </div>
+</div>
+`;
