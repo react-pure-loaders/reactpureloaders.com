@@ -10,19 +10,67 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm ci
-      - run: npm run lint:ts
+      - name: install dependencies
+        run: pnpm i --ignore-scripts --frozen-lockfile
+      - name: run eslint
+        run: pnpm lint
 
   test:
     needs: lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm ci
-      - run: npm run test
+      - name: install dependencies
+        run: pnpm i --ignore-scripts --frozen-lockfile
+      - name: run tests
+        run: pnpm test:ci
+
+  typecheck:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: install dependencies
+        run: pnpm i --ignore-scripts --frozen-lockfile
+      - name: run type check
+        run: pnpm check:types
+
+  build:
+    needs: typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: install dependencies
+        run: pnpm i --ignore-scripts --frozen-lockfile
+      - name: run next build
+        run: pnpm build
+      - name: run storybook build
+        run: pnpm build:storybook
